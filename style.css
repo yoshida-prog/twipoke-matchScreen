@@ -1,0 +1,130 @@
+body {
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fbf0e4;
+    margin: 0 auto;
+    color: #2F2F2F;
+}
+
+p {
+    margin: 0;
+}
+
+.battleScreenContainer {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    margin-top: 14px;
+}
+
+.enemyFollowerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.followerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.followerIcon {
+    width: 82px;
+    height: 82px;
+    border-radius: 41px;
+    border: 1px solid #2f2f2f;
+}
+
+.enemyFollowerInfo {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-top: 10px;
+}
+
+.myFollowerInfo {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-top: 25px;
+}
+
+.enemyGauge {
+    width: 100%;
+    height: 16px;
+    background-color: #4acc5f;
+    margin-left: 10px;
+    border: 1px solid #2f2f2f;
+    border-radius: 8px;
+}
+
+.myGauge {
+    width: 100%;
+    height: 16px;
+    background-color: #4acc5f;
+    margin-left: 10px;
+    border: 1px solid #2f2f2f;
+    border-radius: 8px;
+}
+
+.hpGauge {
+    display: flex;
+    align-items: center;
+}
+
+p.typeContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ground {
+    width: 140px;
+    height: 50px;
+    background-color: #2f8829a6;
+    border-radius: 70px/25px;
+    position: absolute;
+    top: 60px;
+    z-index: -1;
+}
+
+.followerIconContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.eventLogContent {
+    width: 100%;
+    height: 72px;
+    background-color: #fafafa;
+    border: 1px solid #2f2f2f;
+    box-sizing: border-box;
+}
+
+.selectActionContainer {
+    display: flex;
+}
+
+.btn {
+    display: block;
+    padding: 0;
+    border: 1px solid #2f2f2f;
+    width: 50%;
+    height: 42px;
+    box-sizing: content-box;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.followerSelectBtn {
+    background-color: #4acc5f;
+}
+
+.skillSelectBtn {
+    background-color: #e09494;
+}

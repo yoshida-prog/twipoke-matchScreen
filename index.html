@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>twipoke</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+  </head>
+  <body>
+
+    <div id="battleScreen" class="battleScreenContainer">
+        <div id="enemyFollower" class="followerContainer">
+            <div class="enemyFollowerInfo">
+                <p id="enemyName">ゃ</p>
+                <div class="hpAndTypeContent">
+                    <div class="hpGauge"><span>HP</span><div id="enemyHPGauge" class="enemyGauge"></div></div>
+                    <p class="typeContent"><span id="enemyType">electric</span><span id="enemyHP">100/100</span></p>
+                </div>
+            </div>
+            <div class="followerIconContainer">
+                <img id="enemyIcon" class="followerIcon" src="http://pbs.twimg.com/profile_images/1192494421377290240/2uo78IDy_normal.jpg">
+                <div class="ground"></div>
+            </div>
+        </div>
+        <div id="myFollower" class="followerContainer">
+            <div class="followerIconContainer">
+                <img id="myIcon" class="followerIcon" src="http://pbs.twimg.com/profile_images/1192494421377290240/2uo78IDy_normal.jpg">
+                <div class="ground"></div>
+            </div>
+            <div class="myFollowerInfo">
+                <p id="myName">ゃ</p>
+                <div class="hpAndTypeContent">
+                    <div class="hpGauge"><span>HP</span><div id="myHPGauge" class="myGauge"></div></div>
+                    <p class="typeContent"><span id="myType">grass</span><span id="myHP">100/100</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="eventLog" class="eventLogContent"></div>
+
+    <div class="selectActionContainer">
+        <button id="followerSelectBtn" class="followerSelectBtn btn">フォロワー</button>
+        <button id="skillSelectBtn" class="skillSelectBtn btn">たたかう</button>
+    </div>
+
+    <div id="action" class="actionContainer">以下にフォロワー・たたかうに応じて選択肢と決定ボタンを出す</div>
+
+  </body>
+</html>
